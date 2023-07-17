@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;900&family=Montserrat&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+/* header point stare */
+header{
+    width: 100%;
+background-color: black;
+height: ;
+color: white;
+display: flex;
+}
+
+.logo{
+    font-family: font-family: 'Bodoni Moda', serif;;
+    font-weight :700px; ;
+    font-size: 35px;
+    margin-left: 20px;
+    padding: 10px;
+    margin-top:10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+}
+
+.nav ul{
+    list-style: none;
+
+}
+
+.nav ul li {
+    background-color:#262626;
+    width: 160px;
+    border: 1px solid #fff;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    /* padding-top: 10px; */
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav ul li:hover{
+    background-color: dodgerblue;
+    transition: all ease-in 0.5;
+    
+    
+    
+}
+
+.nav ul ul{
+    display: none;
+
+}
+
+.nav ul li:hover > ul{
+display: block;
+}
+
+.like img{
+    width: 60px;
+    position: relative;
+    bottom: -10px;
+
+
+}
+
+/* header point end */
+
+
+/* form start */
+
+.form1{
+    background-color: dodgerblue;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 40px;
+    margin-top: 30px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgb(183, 182, 182) ;
+    
+}
+
+.form1 input{
+    padding: 5px 5px;
+    border-color: #dedddd;
+    border-radius: 5px;
+
+}
+
+.form1 .buttom {
+    font-weight: bold;
+    
+}
+
+.form1 :hover> .buttom1{
+    background-color: black;
+    color: wheat;
+}
+
+
+.form1 :hover> .buttom2{
+    background-color: black;
+    color: wheat;
+}
+
+/* form end */
+
+.emogi{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+
+.dot{
+    width: 12px;
+    height: 18px;
+    background-color: rgb(185, 180, 174);
+    border-radius: 50%;
+    margin: 0px 0px 0px 13px ;
+    
+}
+
+/*2 box*/
+
+.container2{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245 , 0.2);
+    border-radius: 50%;
+        background-color: rgb(250, 235, 100);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+
+.box1{
+    width: 85px;
+    height: 120px;
+    background-color: #ffffff;
+    border-radius: 50% 50% 42% 50%;
+    margin: 5px 5px 30px 5px ;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+.box2{
+    width: 30px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 42px 20px 10px 1px;
+    background: #1a2638;
+    animation-name: circle;
+    animation-duration: 4s;
+/* animation-delay: 1s; */
+animation-iteration-count: infinite ;
+animation-direction:normal ;
+animation-timing-function: ease-in-out;
+
+
+
+    
+
+}
+
+@keyframes circle{
+    10%{
+        transform: translate(20,0);
+    }
+
+    25%{
+        transform: translate(50px,0);
+    }
+}
+
+.smile{
+    width: 128px;
+    height: 40px;
+    margin: 74px 0px  0px -72px;
+    text-align: center;
+    background-color: #242f43;
+    
+    border-radius: 35px 41px 227px 227px / 0% 0% 420% 420% ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer point start  */
+
+footer{
+    position: ;
+    bottom: 0;
+    text-align: center;
+    background-color: #262626;
+    color: white;
+    width: 100%;
+    /* padding: 20px; */
+}
+
+.name h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px ;
+
+}
+
+.text p {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: -30px;
+
+}
+
+
+.icon i{
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+    padding: 10px;
+
+}
+
+
+
+.fa {
+    height: 30px;
+    width: 30px;
+    background-color: dodgerblue;
+    border-radius: 40px;
+
+    
+}
+
+.copy{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    font-size: 20px;
+    line-height: 50px;
+}
